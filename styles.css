@@ -62,6 +62,9 @@ nav{
   font-family: 'Montserrat', sans-serif;
 
 }*/
+#prices.col {
+  align-items: center; 
+}
 .contact{
   background: #b1e0e0;
 }
