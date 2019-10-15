@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <span>Dark Rian </span>
+    <ul>
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#prices">Prices</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+    </nav>
+    <section class="hero" id="home">
+      <img src="dokota.png" width="250" height="250">
+      <h1>Web Desgin</h1>
+      <h2>Web Devloper &middot; Graphic Designer</h2>
+    </section>
+    <section class="list" id="skills">
+    <h1>Skills</h1>
+    <div class="container">
+      <div class="box">
+        image and text
+      </div>
+      <div class="box">
+        image and text
+      </div>
+      <div class="box">
+        image and text
+      </div>
+    </div>
+    </section>
+    <section class="about" id="about">
+    <h1>About me</h1>
+    <p>Hello my name is Dokota Goad and I am going to Lewis-Clark State College (LCSC) I studied information technology then swiched over to web desgin and development. I like video games in my spare time and meeting new people and hanging out with others. </p>
+    </section>
+    <section class="cost" id="prices">
+      <h1>Prices</h1>
+      <div class="container">
+        <div class="box">
+          image and text
+        </div>
+        <div class="box">
+          image and text
+        </div>
+        <div class="box">
+          image and text
+        </div>
+      </div>
+
+    </section>
+    <section class="contact" id="contact">
+    <div class="contact-form">
+      <h1>Contact</h1>
+      <label for="">Your Name</label>
+      <input type="text" name="name" id="name">
+
+      <label for="">Email Adress</label>
+      <input type="text" name="email" id="email">
+
+      <label for="">Phone Number</label>
+      <input type="text" name="phone" id="phone">
+
+      <label for="">Message</label>
+      <textarea name="messaage" id="message"></textarea>
+
+      <button type="submit">Send me a message</button>
+
+
+
+    </div>
+    </section>
+    <footer> <p>
+      <a href="#">
+        <i class="fab fa-facebook-square"></i>
+
+      </a>
+      <a href="#">
+        <i class="fab fa-instagram"></i>
+
+      </a>
+      <a href="#">
+        <i class="fab fa-github"></i>
+
+      </a>
+    </p>
+    <p>
+      &copy; <span id="year"></span>
+    </p></footer>
+    <script>
+    document.getElementById("year").innerHTML = (new Date()).getFullYear();
+    </script>
+  </body>
+</html>
